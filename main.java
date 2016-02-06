@@ -6,5 +6,6 @@ public class main {
 	Guess g= new Guess();	
 	g.game();
 	g.random();
+	
 	}
 }
