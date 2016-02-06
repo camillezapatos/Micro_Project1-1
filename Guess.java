@@ -44,4 +44,27 @@ public void game(){
 	//System.out.println(fd.getFile());
 	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 }
+	public void random(){
+		
+		Random rnd = new Random();
+		int attempts = 0;
+		int scr = 100;
+		int rndNum = rnd.nextInt(100);
+		
+		while(true && attempts < 10){
+			attempts++;
+			scr = scr - 10;
+			
+			String guessNum = JOptionPane.showInputDialog(null, " Guess a number between 1 and 100.", JOptionPane.QUESTION_MESSAGE);
+			
+			int guessNum1 = Integer.parseInt(guessNum);
+			
+			if(){
+				// YOOJU'S PART 
+			}else{
+				JOptionPane.showMessageDialog(null, "CONGRATULATIONS you've won. " + " Your score is: " ); //i know this is wrong but idk how to include the winMes and score
+			}
+		}
+		
+	}
 }
