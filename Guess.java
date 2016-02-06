@@ -62,7 +62,7 @@ public void game(){
 			if(){
 				// YOOJU'S PART 
 			}else{
-				JOptionPane.showMessageDialog(null, "CONGRATULATIONS you've won. " + " Your score is: " ); //i know this is wrong but idk how to include the winMes and score
+				JOptionPane.showMessageDialog(null, "CONGRATULATIONS you've won. " + " Your score is: " + scr ); //i know this is wrong but idk how to include the winMes and score
 			}
 		}
 		
