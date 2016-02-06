@@ -55,7 +55,7 @@ public void game(){
 			attempts++;
 			scr = scr - 10;
 			
-			String guessNum = JOptionPane.showInputDialog(null, " Guess a number between 1 and 100.", JOptionPane.QUESTION_MESSAGE);
+			String guessNum = JOptionPane.showInputDialog(null, " Guess a number between 1 and 100.");
 			
 			int guessNum1 = Integer.parseInt(guessNum);
 			
