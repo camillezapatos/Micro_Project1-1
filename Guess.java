@@ -55,14 +55,22 @@ public void game(){
 			attempts++;
 			scr = scr - 10;
 			
+<<<<<<< HEAD
 			String guessNum = JOptionPane.showInputDialog(null, " Guess a 			number between 1 and 100.", JOptionPane.QUESTION_MESSAGE);
+=======
+			String guessNum = JOptionPane.showInputDialog(null, " Guess a number between 1 and 100.");
+>>>>>>> origin/master
 			
 			int guessNum1 = Integer.parseInt(guessNum);
 			
 			if(){
-				// YOOJU'S PART 
+				// YOOJU CAN PUT HER PART HERE
 			}else{
+<<<<<<< HEAD
 				JOptionPane.showMessageDialog(null, "CONGRATULATIONS 			you've won. " + " Your score is: " ); //i know this is wrong 			but idk how to include the winMes and score
+=======
+				JOptionPane.showMessageDialog(null, "CONGRATULATIONS you've won. " + " Your score is: " + scr ); //i know this is wrong but idk how to include the winMes and score
+>>>>>>> origin/master
 			}
 		}
 	}		
