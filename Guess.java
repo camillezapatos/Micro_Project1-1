@@ -60,7 +60,7 @@ public void game(){
 			int guessNum1 = Integer.parseInt(guessNum);
 			
 			if(){
-				// YOOJU'S PART 
+				// YOOJU CAN PUT HER PART HERE
 			}else{
 				JOptionPane.showMessageDialog(null, "CONGRATULATIONS you've won. " + " Your score is: " + scr ); //i know this is wrong but idk how to include the winMes and score
 			}
